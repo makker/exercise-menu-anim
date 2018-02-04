@@ -1,0 +1,43 @@
+
+#inner-wrap {
+    left: 0px;
+    transition: left 1s;
+    -webkit-transition: left 1s;
+    transition-timing-function: ease-in-out;
+}
+
+.button-img {
+    position: absolute;
+    background-color: transparent;
+    border: none;
+    padding: 6px;
+}
+#btn-menu-close {
+    margin: 20px;
+    position: relative;
+}
+nav .block {
+    height: 100%;
+}
+
+#nav {
+    left: -200px;
+    transition: left 1s;
+    -webkit-transition: left 1s;
+    transition-timing-function: ease-in-out;
+    top: 0;
+    width: 100%;
+    max-width: 300px;
+    height: 100%;
+    position: absolute;
+    z-index: 0;
+}
+
+#outer-wrap.open #inner-wrap {
+    left: 300px;
+}
+
+#outer-wrap.open #nav {
+    display: block;
+    left: 0px;
+}
