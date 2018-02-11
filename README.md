@@ -11,3 +11,4 @@ The menu open/close transitions should be **butter smooth also on modern mobile 
 
 You have 60 minutes and this GIT repo at your disposal. 
 
+End result can be found online here: https://makker.github.io/exercise-menu-anim/
